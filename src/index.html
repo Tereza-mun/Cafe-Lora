@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Café Lóra</title>
+  </head>
+  <body>
+    <section id="home" class="banner">
+      <header>
+        <div class="topbar container">
+          <div class="site-logo"></div>
+          <div class="navigation">
+            <button id="nav-btn" class="nav-btn"></button>
+            <nav class="nav-closed">
+              <a href="#home">domů</a>
+              <a href="#menu">menu</a>
+              <a href="#gallery">galerie</a>
+              <a href="#contact">kontakt</a>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="intro">
+          <h1>Přijď to ochutnat!</h1>
+          <p>Nabízíme kvalitní kávu, útulné prostředí a perfektní servis.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <div class="container">
+        <h2>Naše nabídka</h2>
+        <p class="menu-intro">
+          Vyberte si z našeho interaktivního menu a nemusíte čekat na obsluhu
+        </p>
+
+        <div class="drinks-list">
+          <div class="drink">
+            <div class="drink__product">
+              <div class="drink__cup">
+                <img src="/assets/cups/cappuccino.png" />
+              </div>
+              <div class="drink__info">
+                <h3>Cappuccino</h3>
+                <div class="layer">
+                  <div
+                    class="layer__color"
+                    style="background-color: #feeeca"
+                  ></div>
+                  <div class="layer__label">mléčná pěna</div>
+                </div>
+                <div class="layer">
+                  <div
+                    class="layer__color"
+                    style="background-color: #fed7b0"
+                  ></div>
+                  <div class="layer__label">teplé mléko</div>
+                </div>
+
+                <div class="layer">
+                  <div
+                    class="layer__color"
+                    style="background-color: #613916"
+                  ></div>
+                  <div class="layer__label">espresso</div>
+                </div>
+              </div>
+            </div>
+            <div class="drink__controls">
+              <button class="order-btn">Objednat</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, minima
+        aperiam accusantium totam dolore nostrum expedita quasi? Odit nam
+        dolorem aut qui esse deleniti delectus, iure unde atque quasi illo?
+      </p>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Kde nás najdete</h2>
+        <div class="contacts">
+          <div class="contacts__address">
+            Na Mýtě 240 <br />
+            514 03 Byšky nad Jizerou <br />
+            Tel: +420 775 334 427
+          </div>
+          <img src="/assets/map.png" class="contacts__map" />
+        </div>
+      </div>
+    </section>
+
+    <script src="/bundle.js"></script>
+  </body>
+</html>

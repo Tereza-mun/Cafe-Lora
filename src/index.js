@@ -9,9 +9,7 @@ const navClosed = navBtnElm.addEventListener("click", () => {
 });
 
 const navAllElm = navElm.querySelectorAll("a");
-console.log(navAllElm);
 for (let i = 0; i < navAllElm.length; i += 1) {
-  console.log(navAllElm[i]);
   navAllElm[i].addEventListener("click", navClosed);
 }
 

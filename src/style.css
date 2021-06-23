@@ -227,7 +227,7 @@ nav a:hover {
 .gallery {
   padding-top: 0;
   height: 100vh;
-  color: white;
+  color: #ffffff;
   background-image: url("./img/gallery.jpg");
   background-size: cover;
   background-position: top center;
@@ -238,15 +238,15 @@ nav a:hover {
 }
 
 .gallery p {
+  width: 90%;
   max-width: 1000px;
   padding: 10%;
   font-size: 1.5rem;
-  text-shadow: 0px 5px 3px grey;
+  background-color: rgba(34, 22, 22, 0.7);
 }
 
 .contacts {
   margin-bottom: 4rem;
-
   text-align: center;
 }
 
